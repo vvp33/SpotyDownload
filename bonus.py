@@ -6,8 +6,8 @@ from youtubesearchpython import VideosSearch
 from urllib.parse import urlparse
 
 
-client_id = "1001da3a5e504d26bb7df93d0e92be45"
-secret = "b8e610456bb7416a86684d0a50cf08c6"
+client_id = ""
+secret = ""
 auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=secret)
 spotify = spotipy.Spotify(auth_manager=auth_manager)
 
