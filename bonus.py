@@ -41,11 +41,8 @@ def search(music, performers):
 	videosSearch = VideosSearch(f'{performers} - {music}', limit = 1)
 	videoresult = videosSearch.result()["result"][0]["link"]
 	return videoresult
-# ----------------------------
 
 
-
-# -----------Playlist------------
 def music1(result):
 	tr = []
 
